@@ -13,7 +13,10 @@ import hashlib
 import urllib
 import urllib2
 import json
+import sys
 
+reload(sys)
+sys.setdefaultencoding('utf8')
 API_URL = 'https://www.shooter.cn/api/subapi.php'
 
 
